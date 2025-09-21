@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.timetable th, .timetable td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
+
+.timetable th {
+  background: #2c3e50;
+  color: white;
+}
+
+.break {
+  background: #ffeaa7;
+  font-weight: bold;
+}
+
+.lunch {
+  background: #fab1a0;
+  font-weight: bold;
+}
